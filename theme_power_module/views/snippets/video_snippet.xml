@@ -1,0 +1,9 @@
+<odoo>
+    <template id="wt_anim_prod_left_home" name="Video Snippet">
+        <section class="wt_anim_prod_left_home s_open_category_popup">
+            <div class="container video-container">
+           <!-- When This Section will load It Open a Popup Component-->
+        </div>
+        </section>
+    </template>
+</odoo>

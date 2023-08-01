@@ -1,0 +1,196 @@
+.wt_anim_prod_left_home {
+    display: grid;
+    height: 650px;
+    justify-content: center;
+    align-items: center;
+}
+
+// Set the padding whole section
+.sn_second_block_cl {
+    background-color: black;
+    padding: 5rem 0rem 1rem;
+}
+
+
+.sn_second_block_cl .sn_bl_main {
+    padding: 2.5rem 10px;
+    height: 20rem;
+    background-image: linear-gradient(to right, #f5f5f5, lightgray);
+}
+
+.sn_second_block_cl .sn_bl_main .snb_first {
+    padding: 20px;
+    padding-left: 2rem;
+    padding-bottom: 4rem;
+}
+
+// Styling To Buttons
+.btn-st_orange {
+    border-radius: 0;
+    background: #f46526;
+    color: white;
+    margin: 3px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    box-shadow: none;
+}
+
+.btn-st_orange:hover {
+    color: white
+}
+
+// Styling To static Image 
+.sn_second_block_cl .sn_bl_main .snb_second img {
+    width: 117%;
+    right: 60px;
+    top: 24px;
+    position: relative;
+}
+
+// Styling to sn_bl_main div in first row
+.sn_second_block_cl .sn_bl_main .snb_first span {
+    color: #ff681d;
+    text-transform: uppercase;
+    text-shadow: 0.3px 0.3px;
+    font-size: 1rem;
+}
+
+.sn_second_block_cl .sn_bl_main .snb_first h3 {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 2.3rem;
+    font-family: sans-serif;
+}
+
+.sn_second_block_cl .sn_bl_main .snb_first p {
+    font-size: 0.7rem;
+    color: #495057;
+}
+
+// First Row Second Div col
+.sn_second_block_cl .sn_bl_main_1 .zi_sn_block_1 {
+    text-align: center;
+    padding-top: 2rem;
+    text-align: center;
+    height: 15rem;
+    background: linear-gradient(to bottom, #4f4f4f 31%, gray 78%, #0000ff00);
+}
+
+.sn_second_block_cl .sn_bl_main_1 .zi_sn_block_1 h3 {
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 2.5rem;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.sn_second_block_cl .sn_bl_main_1 .zi_sn_block_1 span {
+    text-align: center;
+    display: block;
+    color: #f46526;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.sn_second_block_cl .sn_bl_main_1 .zi_sn_block_1 p{
+   color: white;
+   font-size: 0.8rem;
+   text-align: center;
+   padding: 0px 0.5rem;
+}
+
+.sn_second_block_cl .sn_bl_main_1 {
+    background: url(/theme_power_module/static/src/img/sb_002.png);
+    background-size: 100% 69%;
+    background-repeat: no-repeat;
+    background-position-y: 159px;
+    height: 20rem;
+}
+
+// Styling To Second Row
+
+// Styling to sn_sn_bl_main first colums div box
+.sn_second_block_cl .sn_sn_bl_main {
+    background-image: linear-gradient(to right, #f5f5f5, lightgray);
+    height: 20rem;
+}
+.sn_second_block_cl .sn_sn_bl_main .sn_001 {
+    width: 281px;
+    padding: 2rem 0rem 4rem 2rem;
+}
+
+.sn_second_block_cl .sn_sn_bl_main .sn_001 span {
+    color: #ff681d;
+    text-transform: uppercase;
+    text-shadow: 0.3px 0.3px;
+    font-size: 1rem;
+}
+
+.sn_second_block_cl .sn_sn_bl_main .sn_001 h3{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 2.3rem;
+    font-family: sans-serif;
+    line-height: 40px;
+}
+
+.sn_second_block_cl .sn_sn_bl_main .sn_001 p {
+    font-size: 0.7rem;
+    color: #495057;
+}
+
+.sn_second_block_cl .sn_sn_bl_main .bg_img_002 {
+    height: 20rem;
+    background: url(/theme_power_module/static/src/img/sb_003.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-position-x: 12.5rem;
+    background-position-y: 9rem;
+    background-size: contain;
+}
+
+// Styling to sn_four_bl_001 in second column in second row
+.sn_second_block_cl .sn_four_bl_001{
+    height: 20rem;
+    background-image: linear-gradient(to right,#f5f5f5,lightgray);
+}
+
+.sn_second_block_cl .sn_four_bl_001 .sb_sn_four_containt{
+    width: 50%;
+    float: right;
+    padding: 2rem;
+}
+
+.sn_second_block_cl .sn_four_bl_001 .sb_sn_four_containt span{
+    color: #ff681d;
+    text-transform: uppercase;
+    text-shadow: 0.3px 0.3px;
+    font-size: 1rem;
+}
+
+.sn_second_block_cl .sn_four_bl_001 .sb_sn_four_containt h3{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 2.3rem;
+    font-family: sans-serif;
+    line-height: 40px;
+}
+
+.sn_second_block_cl .sn_four_bl_001 .sb_sn_four_containt p{
+    font-size: 0.7rem;
+    color: #495057;
+}
+
+.sn_second_block_cl .sn_four_bl_001 .bg_sb_four_001{
+    background: url(/theme_power_module/static/src/img/sb_004.png);
+    height: 20rem;
+    background-size: 370px;
+    background-repeat: no-repeat;
+    background-position: -45px 39%;
+}

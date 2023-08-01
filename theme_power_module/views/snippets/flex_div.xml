@@ -1,0 +1,82 @@
+<odoo>
+    <template id="flex_product_display" name="Div Boxes">
+        <section class="sn_second_block_cl">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-lg-7 mb32">
+                        <div class="sn_bl_main">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="snb_first">
+                                        <span>12-IN-1 MULTI-Purpose Toolbox </span>
+                                        <h3>Tool Shed</h3>
+                                        <p>
+                                            A 12-in-1 multi-purpose toolbox that transforms
+                                            handheld tools into benchtop tools in seconds 
+                                        </p>
+                                        <div class="d-flex">
+                                            <a class="btn btn-st_orange" href="/shop">Shop now</a>
+                                            <a href="/shop/doer-tools-shed" class="btn btn-st_orange ml-2">Explore</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="snb_second">
+                                        <img src="/theme_power_module/static/src/img/sb_001.png" alt=""/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-5 mb32">
+                        <div class="sn_bl_main_1">
+                            <div class="zi_sn_block_1">
+                                <span>Brushless<i class="fa fa-cog"></i></span>
+                                <h3>Power tools</h3>
+                                <p>Wide a wide range of Rotary Hammers, Impact Wrenches, Equipped with Premium Quality Brushless DC Motors, Stellen Tools tackle tough jobs.</p>
+                                <div class="d-flex justify-content-center">
+                                    <a class="btn btn-st_orange" href="/shop">Shop now</a>
+                                    <a class="btn btn-st_orange ml-2" href="/shop">Explore</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 col-lg-5 mb32">
+                        <div class="sn_sn_bl_main">
+                            <div class="bg_img_002">
+                                <div class="sn_001">
+                                    <span>Creative</span>
+                                    <h3>Maker Tool</h3>
+                                    <p>
+                                        Create futuristic ideas by using DOER Hotwire Foam Cutter, DC Soldering Iron (comply with DOER battery), Table Disc Sanding Mini Lathe Table
+                                    </p>
+                                    <div class="d-flex">
+                                        <a class="btn btn-st_orange" href="/shop">Shop now</a>
+                                        <a class="btn btn-st_orange ml-2" href="/shop">Explore</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-7 mb32">
+                        <div class="sn_four_bl_001">
+                            <div class="bg_sb_four_001">
+                                <div class="sb_sn_four_containt">
+                                    <span>CORE OF DOER ECOSYSTEM</span>
+                                    <h3>ONE(1)GRIP</h3>
+                                    <p>By sliding the grip from the rear to the front of DOER tool head's installation grooves until a satisfying, audible "click" is heard, portable power tools with continuously variable operation speed are created after installing a battery pack.</p>
+                                    <div class="d-flex justify-content-end">
+                                        <a class="btn btn-st_orange" href="/shop">Shop now</a>
+                                        <a class="btn btn-st_orange ml-2" href="/shop">Explore</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>

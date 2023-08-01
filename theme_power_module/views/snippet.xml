@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+     <template id="external_snippets" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_feature']//t[@t-snippet][last()]" position="after">
+                 <t t-snippet="theme_power_module.wt_anim_prod_left_home" t-thumbnail="/theme_power_module/static/src/thumbnail/wt_logo.png"/>
+				 <t t-snippet="theme_power_module.flex_product_display" t-thumbnail="/theme_power_module/static/src/thumbnail/wt_logo.png"/>
+            </xpath>  
+     </template>
+     <template id="tp_options" inherit_id="website.snippet_options">
+		<xpath expr="." position="inside">
+			<div data-js="s_open_category_popup" data-selector=".s_open_category_popup">
+				<we-select string="Mode" data-dependencies="!slideshow_mode_opt">
+					<we-button data-mode="grid" data-name="grid_mode_opt">Grid</we-button>
+				</we-select>
+				<t t-call="website.snippet_options_border_widgets">
+					<t t-set="apply_to" t-valuef="img"/>
+					<t t-set="so_rounded_no_dependencies" t-value="true"/>
+				</t>
+			</div>
+		</xpath>
+	</template>
+
+     <!-- <record id="theme_power_module.script.js" model="ir.assets">
+          <field name="name">MY Script Js</field>
+          <field name="bundle">web.assets_frontend</field>
+          <field name="path">/theme_power_module/static/src/js/script.js</field>
+     </record> -->
+</odoo>

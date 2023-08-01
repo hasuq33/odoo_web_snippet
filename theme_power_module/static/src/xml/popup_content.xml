@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <templates>
+    <div t-name="theme_power_module.popup_window_content" class="o_dialog_warning" role="alert">
+        <div class="container">
+            <h3>My PopUp</h3>
+         <input name="youtube_url" class="form-control" id="youtube_url" placeholder="Enter The URL.."/>
+        </div>
+    </div>
+</templates>
